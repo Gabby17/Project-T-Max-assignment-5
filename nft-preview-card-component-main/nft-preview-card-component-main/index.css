@@ -1,0 +1,154 @@
+/* font-size: 11px; text-align: center; 
+color: hsl(228, 45%, 44%);  */
+
+body {
+    background-color:  hsl(217, 54%, 11%);
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.container {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px 20px;
+    border-radius: 18px;
+    width: 262px;
+    box-shadow: 18px 14px 72px #0C1729 ;
+}
+
+.nftimg {
+    display: block;
+    width: 260px;
+    height: 260px;
+    border-radius: 9px;
+}
+
+.contain {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    /* height: 100%; */
+    /* border-radius: 9px; */
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 9px;
+}
+
+.contain:hover .overlay {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.icon:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.bodytext {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 16px;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 6px;
+    margin-top:0;
+}
+
+.days {
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 6px;
+    margin-top: 0;
+}
+
+hr {
+    background-color: hsl(215, 32%, 27%);
+    border: 0.8px solid hsl(215, 32%, 27%) ;
+}
+
+.ether {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+}
+
+.et {
+    display: flex;
+}
+
+.time {
+    display: flex;
+}
+
+.foot {
+    display: flex;
+    margin-top: 14px;
+}
+
+.avatar {
+    width: 24px;
+    height: 24px;
+    border: 1px solid  hsl(0, 0%, 100%);
+    border-radius: 28px;
+
+}
+
+.creation {
+    color: hsl(215, 51%, 70%);
+    padding-left: 12px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+span {
+    color: hsl(0, 0%, 100%);
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
